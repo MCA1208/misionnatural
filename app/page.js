@@ -5,53 +5,51 @@ import Swal from "sweetalert2";
 import { useRouter } from "next/navigation";
 import { CircularProgress, Backdrop } from "@mui/material";
 
-function page() {
-  const router = useRouter();
+function Page() {
+  //const router = useRouter();
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [progress, setProgress] = useState(false);
   const [inputType, setInputType] = useState("password");
 
   const login = async () => {
-    setProgress(true);
-    const requestOptions = {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ email: email, password: password }),
-    };
-
-    console.log(requestOptions);
-
-    await fetch("http://localhost:8080/login", requestOptions)
-      .then((response) => response.json())
-      .then((data) => {
-        if (data.result.status == true) {
-          sessionStorage.setItem("id", data.result.data[0].id);
-          sessionStorage.setItem("email", data.result.data[0].email);
-          sessionStorage.setItem("name", data.result.data[0].name);
-          router.push("/dashboard/home");
-        } else {
-          Swal.fire({
-            title: "Error!",
-            text: "Credenciales incorrectas" + " " + data.result.data,
-            icon: "error",
-            confirmButtonText: "Cerrar",
-            timer: 3000,
-          });
-          setProgress(false);
-        }
-      })
-      .catch((error) => {
-        console.log(error);
-        Swal.fire({
-          title: "Error!",
-          text: "error en la solicitud" + " " + data.result.data,
-          icon: "error",
-          confirmButtonText: "Cerrar",
-          timer: 3000,
-        });
-        setProgress(false);
-      });
+    // setProgress(true);
+    // const requestOptions = {
+    //   method: "POST",
+    //   headers: { "Content-Type": "application/json" },
+    //   body: JSON.stringify({ email: email, password: password }),
+    // };
+    // console.log(requestOptions);
+    // await fetch("http://localhost:8080/login", requestOptions)
+    //   .then((response) => response.json())
+    //   .then((data) => {
+    //     if (data.result.status == true) {
+    //       sessionStorage.setItem("id", data.result.data[0].id);
+    //       sessionStorage.setItem("email", data.result.data[0].email);
+    //       sessionStorage.setItem("name", data.result.data[0].name);
+    //       router.push("/dashboard/home");
+    //     } else {
+    //       Swal.fire({
+    //         title: "Error!",
+    //         text: "Credenciales incorrectas" + " " + data.result.data,
+    //         icon: "error",
+    //         confirmButtonText: "Cerrar",
+    //         timer: 3000,
+    //       });
+    //       setProgress(false);
+    //     }
+    //   })
+    //   .catch((error) => {
+    //     console.log(error);
+    //     Swal.fire({
+    //       title: "Error!",
+    //       text: "error en la solicitud" + " " + data.result.data,
+    //       icon: "error",
+    //       confirmButtonText: "Cerrar",
+    //       timer: 3000,
+    //     });
+    //     setProgress(false);
+    //   });
   };
 
   const showPassword = () => {
@@ -123,4 +121,4 @@ function page() {
   );
 }
 
-export default page;
+export default Page;
