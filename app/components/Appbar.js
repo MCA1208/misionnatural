@@ -10,8 +10,18 @@ import Image from "next/image";
 import logo from "../images/logo.png";
 import name from "../images/senderotropical.png";
 import LoginIcon from "@mui/icons-material/Login";
+import Menu from "@mui/material/Menu";
+import MenuItem from "@mui/material/MenuItem";
 
 export default function ButtonAppBar() {
+  const [anchorEl, setAnchorEl] = React.useState(null);
+  const open = Boolean(anchorEl);
+  const handleClick = (event) => {
+    setAnchorEl(event.currentTarget);
+  };
+  const handleClose = () => {
+    setAnchorEl(null);
+  };
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -22,20 +32,45 @@ export default function ButtonAppBar() {
             color="inherit"
             aria-label="menu"
             sx={{ mr: 2 }}
+            id="basic-button"
+            aria-controls={open ? "basic-menu" : undefined}
+            aria-haspopup="true"
+            aria-expanded={open ? "true" : undefined}
+            onClick={handleClick}
           >
             <MenuIcon />
           </IconButton>
+          <Menu
+            id="basic-menu"
+            anchorEl={anchorEl}
+            open={open}
+            onClose={handleClose}
+            MenuListProps={{
+              "aria-labelledby": "basic-button",
+            }}
+          >
+            <MenuItem onClick={handleClose}>Destinos</MenuItem>
+            <MenuItem onClick={handleClose}>Cultura</MenuItem>
+            <MenuItem onClick={handleClose}>Actividades</MenuItem>
+            <MenuItem onClick={handleClose}>Turismo rural</MenuItem>
+            <MenuItem onClick={handleClose}>Gastronomia</MenuItem>
+          </Menu>
           <Box>
             <Image width={50} height={50} src={logo} />
           </Box>
-          <Box sx={{ padding: 1 }}>
-            {" "}
-            <Image src={name} />{" "}
+          <Box sx={{ padding: 1, alignItems: "center" }}>
+            <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
+              <span style={{ color: "red" }}>SEN</span>
+              <span style={{ color: "blue" }}>DE</span>
+              <span style={{ color: "white" }}>RO</span> &nbsp;{" "}
+              <span style={{ color: "#bbff33" }}>NATURAL</span>
+            </Typography>
           </Box>
 
           {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography> */}
+          <Box sx={{ flexGrow: 1 }} />
           <Button variant="outlined" color="inherit">
             Ingresar <LoginIcon />
           </Button>
