@@ -1,4 +1,39 @@
-* {
+.contenedor{
+  position: relative;
+  padding-top: 56.25%;
+
+}
+
+.react-player{
+  position: absolute; 
+  top:0;
+  left:0;
+}
+
+.verimage{
+  background: url(./images/yaguarete.jpg) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 27vh;
+  background-size: cover;
+  background-position: center;
+}
+.white-with-blue-shadow {
+  text-shadow:
+    1px 1px 2px black,
+    0 0 1em blue,
+    0 0 0.2em blue;
+  color: white;
+  font:
+    2.5em Georgia,
+    "Bitstream Charter",
+    "URW Bookman L",
+    "Century Schoolbook L",
+    serif;
+}
+
+/* * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -19,10 +54,10 @@ image {
 }
 
 .wrapper {
-  width: 750px; /*420px; */
+  width: 750px; 
   background: transparent;
   border: 2px solid rgba(255, 255, 255, 0.2);
-  backdrop-filter: blur(10px); /*blur(20px);*/
+  backdrop-filter: blur(10px); 
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   color: #fff;
   border-radius: 10px;
@@ -102,7 +137,6 @@ image {
 .wrapper .btn {
   width: 70%;
   height: 45px;
-  /* background: #00c2ff; */
   border: none;
   outline: none;
   border-radius: 40px;
@@ -131,4 +165,4 @@ image {
   width: 100%;
   text-align: center;
   padding: 20px 102px 20px;
-}
+} */

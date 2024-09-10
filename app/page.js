@@ -1,6 +1,6 @@
 "use client";
 // import React, { useEffect, useState } from "react";
-// import "./globals.css";
+import "./globals.css";
 // import Swal from "sweetalert2";
 // import { useRouter } from "next/navigation";
 // import { CircularProgress, Backdrop } from "@mui/material";
@@ -15,7 +15,7 @@ import NextLink from "next/link";
 import ProTip from "./components/ProTip";
 import Copyright from "./components/Copyright";
 import AppBar from "./components/Appbar";
-import imageYaguar from "./images/yaguarete.jpg";
+import imageYaguar from "../app/images/yaguarete.jpg";
 import imageSelva1 from "./images/selva1.jpg";
 import imageSelva2 from "./images/selva2.jpg";
 import Image from "next/image";
@@ -23,13 +23,38 @@ import { Repeat } from "@mui/icons-material";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ReactPlayer from "react-player/youtube";
-//import "./globals.css";
+
+const imgx = require.context("./images", true);
 
 function Page() {
   return (
     <body>
       <Container maxWidth="lg">
         <AppBar />
+
+        <Box
+          className="verimage"
+          sx={{
+            my: 4,
+            display: "flex",
+            flexDirection: "column",
+            justifyContent: "center",
+            alignItems: "center",
+            // backgroundColor: "#33ecff",
+            padding: "14px",
+          }}
+        >
+          <Typography
+            className="white-with-blue-shadow"
+            variant="h4"
+            component="h1"
+            sx={{ mb: 2 }}
+          >
+            Visitar Misiones, es un aventura inolvidable, cada destino tiene una
+            belleza natural única. Te invitamos a hacer un recorrido, navegando
+            en la web, para conocer su cultura y lugares turísticos.
+          </Typography>
+        </Box>
         <Box
           sx={{
             my: 4,
@@ -43,10 +68,15 @@ function Page() {
           <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
             Lugares en Misiones
           </Typography>
-
-          <ReactPlayer url="https://www.youtube.com/watch?v=XbGy99E0Cpw" />
-          <br />
         </Box>
+        <div className="contenedor">
+          <ReactPlayer
+            height="100%"
+            width="100%"
+            className="react-player"
+            url="https://www.youtube.com/watch?v=XbGy99E0Cpw"
+          />
+        </div>
         <Box
           sx={{
             my: 4,
@@ -60,7 +90,13 @@ function Page() {
           <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
             Galeria de fotos
           </Typography>
-          <ImageList sx={{ width: 500, height: 450 }} cols={3} rowHeight={164}>
+        </Box>
+        <div>
+          <ImageList
+            sx={{ width: "100%", height: "100%" }}
+            cols={3}
+            rowHeight={164}
+          >
             {itemData.map((item) => (
               <ImageListItem key={item.img}>
                 <img
@@ -72,7 +108,7 @@ function Page() {
               </ImageListItem>
             ))}
           </ImageList>
-        </Box>
+        </div>
         <Box
           sx={{
             my: 4,
