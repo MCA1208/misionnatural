@@ -10,7 +10,7 @@
   left:0;
 }
 
-.verimage{
+.backimage{
   background: url(./images/yaguarete.jpg) no-repeat;
   display: flex;
   justify-content: center;
@@ -18,7 +18,25 @@
   min-height: 27vh;
   background-size: cover;
   background-position: center;
+
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  
 }
+
+.boxstyle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 14px;
+  box-shadow: inset 0 3px 6px rgba(0,0,0,0.16), 0 4px 6px rgba(0,0,0,0.45);
+  border-radius: 10px;
+  
+}
+
 .white-with-blue-shadow {
   text-shadow:
     1px 1px 2px black,
@@ -32,6 +50,8 @@
     "Century Schoolbook L",
     serif;
 }
+
+
 
 /* * {
   margin: 0;

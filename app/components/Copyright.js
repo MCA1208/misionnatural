@@ -13,7 +13,7 @@ export default function Copyright() {
     >
       {"Copyright © "}
       <MuiLink color="inherit" href="https://mui.com/">
-        https://senderotropical.onrender.com
+        https://misiontropical.onrender.com
       </MuiLink>{" "}
       {new Date().getFullYear()}.
     </Typography>

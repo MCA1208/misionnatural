@@ -12,9 +12,16 @@ import name from "../images/senderotropical.png";
 import LoginIcon from "@mui/icons-material/Login";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
+import Select from "@mui/material/Select";
+import FormControl from "@mui/material/FormControl";
+import ImageArgentina from "../images/argentina.png";
+import ImageUsa from "../images/estados-unidos.png";
+import ImageBrasil from "../images/brasil.png";
+import { useTranslation } from "react-i18next";
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [language, setLanguage] = React.useState(10);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -22,6 +29,22 @@ export default function ButtonAppBar() {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
+  const [t, i18n] = useTranslation("global");
+
+  const handleChange = (event) => {
+    if (event.target.value == 10) {
+      i18n.changeLanguage("es");
+      setLanguage(10);
+    } else if (event.target.value == 20) {
+      i18n.changeLanguage("en");
+      setLanguage(20);
+    } else if (event.target.value == 30) {
+      i18n.changeLanguage("pt");
+      setLanguage(30);
+    }
+  };
+
   return (
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
@@ -60,19 +83,41 @@ export default function ButtonAppBar() {
           </Box>
           <Box sx={{ padding: 1, alignItems: "center" }}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-              <span style={{ color: "red" }}>SEN</span>
-              <span style={{ color: "blue" }}>DE</span>
-              <span style={{ color: "white" }}>RO</span> &nbsp;{" "}
-              <span style={{ color: "#bbff33" }}>NATURAL</span>
+              <span style={{ color: "red" }}>MI</span>
+              <span style={{ color: "blue" }}>SI</span>
+              <span style={{ color: "white" }}>ON</span> &nbsp;{" "}
+              <span style={{ color: "#bbff33" }}>TROPICAL</span>
             </Typography>
           </Box>
-
+          <FormControl
+            id="xxxx
+          "
+            sx={{ paddingLeft: "150px", margin: "9px" }}
+          >
+            <Select
+              labelId="demo-simple-select-label"
+              id="demo-simple-select"
+              value={language}
+              label="Lng"
+              onChange={handleChange}
+            >
+              <MenuItem value={10}>
+                <Image width={40} src={ImageArgentina} />
+              </MenuItem>
+              <MenuItem value={20}>
+                {<Image width={40} src={ImageUsa} />}
+              </MenuItem>
+              <MenuItem value={30}>
+                {<Image width={40} src={ImageBrasil} />}
+              </MenuItem>
+            </Select>
+          </FormControl>
           {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography> */}
           <Box sx={{ flexGrow: 1 }} />
           <Button variant="outlined" color="inherit">
-            Ingresar <LoginIcon />
+            {t("home.login")} &nbsp; <LoginIcon />
           </Button>
         </Toolbar>
       </AppBar>
