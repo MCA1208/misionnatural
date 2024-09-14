@@ -9,11 +9,7 @@ import global_por from "../../translations/pt/global.json";
 import AppBar from "../../components/Appbar";
 import Footer from "../../components/footer";
 import Culture from "../../components/culture";
-import ImageList from "@mui/material/ImageList";
-import ImageListItem from "@mui/material/ImageListItem";
 import Image from "next/image";
-
-import "../culture.css";
 
 i18next.init({
   interpolation: { escapeValue: false },
