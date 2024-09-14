@@ -23,10 +23,7 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ReactPlayer from "react-player/youtube";
 import { useTranslation as UseTranslation } from "react-i18next";
-import i18next from "i18next";
-import global_esp from "../translations/es/global.json";
-import global_eng from "../translations/en/global.json";
-import global_por from "../translations/pt/global.json";
+// import i18next from "i18next";
 import Footer from "./footer";
 
 const imgx = require.context("../images", true);

@@ -132,9 +132,9 @@ export default function ButtonAppBar() {
             News
           </Typography> */}
           <Box sx={{ flexGrow: 1 }} />
-          <Button variant="outlined" color="inherit">
+          {/* <Button variant="outlined" color="inherit">
             {t("home.login")} &nbsp; <LoginIcon />
-          </Button>
+          </Button> */}
         </Toolbar>
       </AppBar>
     </Box>
