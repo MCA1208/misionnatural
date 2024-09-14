@@ -27,6 +27,7 @@ import i18next from "i18next";
 import global_esp from "../translations/es/global.json";
 import global_eng from "../translations/en/global.json";
 import global_por from "../translations/pt/global.json";
+import Footer from "./footer";
 
 const imgx = require.context("../images", true);
 
@@ -100,19 +101,7 @@ function Home() {
             ))}
           </ImageList>
         </div>
-        <Box
-          className="boxstyle"
-          sx={{
-            my: 4,
-            backgroundColor: "#33ecff",
-          }}
-        >
-          <text>
-            WhatsApp: +54 9 3764 13-89856 {t("home.phone")}: (0376) 4449999/40
-            Email: info@senderotropical.com.ar ombu 1985 – Posadas – Misiones
-          </text>
-          <Copyright />
-        </Box>
+        <Footer />
       </Container>
     </body>
   );

@@ -1,28 +1,42 @@
 {
   "pages": {
-    "/_not-found": [
-      "static/chunks/webpack-21eee425a69b2758.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/app/_not-found-ac189729b40b9a4e.js"
+    "/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
-      "static/chunks/webpack-21eee425a69b2758.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/css/b32a757c1b71a6fc.css",
-      "static/chunks/app/layout-c8f001e98ff278eb.js"
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/layout.css",
+      "static/chunks/app/layout.js"
     ],
-    "/page": [
-      "static/chunks/webpack-21eee425a69b2758.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/411-4507cfaf14a1a39e.js",
-      "static/css/96344a3b3f9385ef.css",
-      "static/chunks/app/page-2a63cf54b464e4b1.js"
+    "/dashboard/culture/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/culture/page.css",
+      "static/chunks/app/dashboard/culture/page.js"
+    ],
+    "/dashboard/activities/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/activities/page.js"
+    ],
+    "/dashboard/destination/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/destination/page.js"
+    ],
+    "/dashboard/ruraltourism/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/ruraltourism/page.js"
+    ],
+    "/dashboard/gastronomy/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/dashboard/gastronomy/page.js"
     ]
   }
 }

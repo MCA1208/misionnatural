@@ -8,7 +8,6 @@ import IconButton from "@mui/material/IconButton";
 import MenuIcon from "@mui/icons-material/Menu";
 import Image from "next/image";
 import logo from "../images/logo.png";
-import name from "../images/senderotropical.png";
 import LoginIcon from "@mui/icons-material/Login";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
@@ -18,6 +17,7 @@ import ImageArgentina from "../images/argentina.png";
 import ImageUsa from "../images/estados-unidos.png";
 import ImageBrasil from "../images/brasil.png";
 import { useTranslation } from "react-i18next";
+import { useRouter } from "next/navigation";
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -31,6 +31,7 @@ export default function ButtonAppBar() {
   };
 
   const [t, i18n] = useTranslation("global");
+  const router = useRouter();
 
   const handleChange = (event) => {
     if (event.target.value == 10) {
@@ -72,14 +73,29 @@ export default function ButtonAppBar() {
               "aria-labelledby": "basic-button",
             }}
           >
-            <MenuItem onClick={handleClose}>Destinos</MenuItem>
-            <MenuItem onClick={handleClose}>Cultura</MenuItem>
-            <MenuItem onClick={handleClose}>Actividades</MenuItem>
-            <MenuItem onClick={handleClose}>Turismo rural</MenuItem>
-            <MenuItem onClick={handleClose}>Gastronomia</MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/destination")}>
+              Destinos
+            </MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/culture")}>
+              Cultura
+            </MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/activities")}>
+              Actividades
+            </MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/ruraltourism")}>
+              Turismo rural
+            </MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/gastronomy")}>
+              Gastronomia
+            </MenuItem>
           </Menu>
           <Box>
-            <Image width={50} height={50} src={logo} />
+            <Image
+              onClick={() => router.push("/")}
+              width={50}
+              height={50}
+              src={logo}
+            />
           </Box>
           <Box sx={{ padding: 1, alignItems: "center" }}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
