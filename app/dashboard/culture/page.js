@@ -1,7 +1,10 @@
 "use client";
 import React from "react";
 import Container from "@mui/material/Container";
-import { I18nextProvider, useTranslation } from "react-i18next";
+import {
+  I18nextProvider,
+  useTranslation as UseTranslation,
+} from "react-i18next";
 import i18next from "i18next";
 import AppBar from "../../components/Appbar";
 import Footer from "../../components/footer";
@@ -13,7 +16,7 @@ import Image from "next/image";
 import "../culture.css";
 
 function page() {
-  const [t, i18n] = useTranslation("global");
+  const [t, i18n] = UseTranslation("global");
   return (
     <div>
       <I18nextProvider i18n={i18next}>

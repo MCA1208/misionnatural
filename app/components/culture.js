@@ -1,10 +1,11 @@
+"use client";
 import React from "react";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
-import { useTranslation } from "react-i18next";
+import { useTranslation as UseTranslation } from "react-i18next";
 
 function culture() {
-  const [t, i18n] = useTranslation("global");
+  const [t, i18n] = UseTranslation("global");
   return (
     <div>
       <Box

@@ -22,7 +22,7 @@ import { Repeat } from "@mui/icons-material";
 import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import ReactPlayer from "react-player/youtube";
-import { useTranslation } from "react-i18next";
+import { useTranslation as UseTranslation } from "react-i18next";
 import i18next from "i18next";
 import global_esp from "../translations/es/global.json";
 import global_eng from "../translations/en/global.json";
@@ -32,7 +32,7 @@ import Footer from "./footer";
 const imgx = require.context("../images", true);
 
 function Home() {
-  const [t, i18n] = useTranslation("global");
+  const [t, i18n] = UseTranslation("global");
   return (
     <body>
       <Container maxWidth="lg">

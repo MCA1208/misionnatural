@@ -3,10 +3,10 @@ import Container from "@mui/material/Container";
 import Box from "@mui/material/Box";
 import Typography from "@mui/material/Typography";
 import Copyright from "./Copyright";
-import { useTranslation } from "react-i18next";
+import { useTranslation as UseTranslation } from "react-i18next";
 
 function footer() {
-  const [t, i18n] = useTranslation("global");
+  const [t, i18n] = UseTranslation("global");
   return (
     <div>
       <Box
