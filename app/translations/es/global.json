@@ -9,5 +9,22 @@
     },
     "culture":{
         "description": "Misiones es una provincia del noreste de Argentina, es rica y diversa, con una mezcla de influencias indígenas, guaraníes y europeas.  La presencia guaraní es muy fuerte en Misiones. La lengua guaraní se habla y se enseña en algunas escuelas, y muchas costumbres y tradiciones guaraníes siguen siendo parte de la vida cotidiana. Los nombres de lugares y las festividades también reflejan esta herencia. La música y la danza son fundamentales en la cultura de Misiones. La polca misionera y la música folclórica argentina son populares. Además, hay influencias de la música brasileña debido a la proximidad con Brasil. En cuanto la artesanía local incluye tejidos, cerámicas y tallas en madera, a menudo con diseños inspirados en la naturaleza y la cosmovisión guaraní. La belleza natural de Misiones, con sus selvas, cascadas y ríos, es una gran atracción turística. Las Cataratas del Iguazú son uno de los principales destinos turísticos, y la región es conocida por su biodiversidad y parques nacionales. La combinación de estas influencias hace que la cultura de Misiones sea única y fascinante, reflejando una mezcla de tradiciones indígenas, influencias europeas y una fuerte conexión con la naturaleza. "
+    },
+    "gastronomy":{
+        "name":"Gastronomía",
+        "notfound":"Pagina no disponible"
+
+    },  
+    "destination":{
+        "name":"Destinos"
+    },
+    "error":{
+       "notfound":"Página no disponible"
+    },
+    "ruraltourism":{
+        "name":"Turismo rural"
+    },
+    "activities":{
+        "name":"Actividades"
     }
 }

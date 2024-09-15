@@ -12,6 +12,7 @@ import ImageListItem from "@mui/material/ImageListItem";
 
 function culture() {
   const [t, i18n] = UseTranslation("global");
+
   return (
     <div>
       <Container maxWidth="lg">

@@ -1,4 +1,4 @@
-import * as React from "react";
+import { React, useEffect, useState } from "react";
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -20,8 +20,8 @@ import { useTranslation } from "react-i18next";
 import { useRouter } from "next/navigation";
 
 export default function ButtonAppBar() {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const [language, setLanguage] = React.useState(10);
+  const [anchorEl, setAnchorEl] = useState(null);
+  const [language, setLanguage] = useState(10);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -45,6 +45,16 @@ export default function ButtonAppBar() {
       setLanguage(30);
     }
   };
+
+  useEffect(() => {
+    if (i18n.language == "es") {
+      setLanguage(10);
+    } else if (i18n.language == "en") {
+      setLanguage(20);
+    } else if (i18n.language == "pt") {
+      setLanguage(30);
+    }
+  }, []);
 
   return (
     <Box sx={{ flexGrow: 1 }}>

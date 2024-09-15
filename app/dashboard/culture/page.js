@@ -1,15 +1,13 @@
 "use client";
-import React from "react";
-import Container from "@mui/material/Container";
+import { React } from "react";
 import { I18nextProvider } from "react-i18next";
 import i18next from "i18next";
 import global_esp from "../../translations/es/global.json";
 import global_eng from "../../translations/en/global.json";
 import global_por from "../../translations/pt/global.json";
-import AppBar from "../../components/Appbar";
-import Footer from "../../components/footer";
 import Culture from "../../components/culture";
-import Image from "next/image";
+
+import "../culture.css";
 
 i18next.init({
   interpolation: { escapeValue: false },

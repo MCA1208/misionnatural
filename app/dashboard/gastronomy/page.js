@@ -1,22 +1,33 @@
 "use client";
 import React from "react";
-import Container from "@mui/material/Container";
-import AppBar from "../../components/Appbar";
-import Footer from "../../components/footer";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+import Principal from "../../components/gastronomy/principal";
+import global_esp from "../../translations/es/global.json";
+import global_eng from "../../translations/en/global.json";
+import global_por from "../../translations/pt/global.json";
+
+i18next.init({
+  interpolation: { escapeValue: false },
+  lng: "es",
+  resources: {
+    es: {
+      global: global_esp,
+    },
+    en: {
+      global: global_eng,
+    },
+    pt: {
+      global: global_por,
+    },
+  },
+});
 
 function page() {
   return (
-    <div>
-      <Container maxWidth="lg">
-        <AppBar />
-        <div style={{ textAlign: "center" }}>
-          <h3>Gastronomía</h3>
-          <h3>Page not available</h3>
-        </div>
-
-        <Footer />
-      </Container>
-    </div>
+    <I18nextProvider i18n={i18next}>
+      <Principal />
+    </I18nextProvider>
   );
 }
 
