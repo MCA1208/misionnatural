@@ -16,7 +16,18 @@
 
     },  
     "destination":{
-        "name":"Destinos"
+        "name":"Destinos",
+        "text1": "Misiones ofrece una variedad de destinos turísticos que destacan por su belleza natural, su riqueza cultural y su historia. A continuación podemos ver  algunos de los lugares para visitar:",
+        "title1":" Cataratas del Iguazú",
+        "text2":"Uno de los destinos más icónicos de Argentina y del mundo. Las cataratas están situadas en el Parque Nacional Iguazú y ofrecen vistas impresionantes, senderos y paseos en barco que te acercan a la base de las cascadas. También puedes explorar el Sendero Macuco y la Garganta del Diablo, la caída más grande y espectacular.",
+        "title2":"¿Cómo llegar?",
+        "title3": "Desde Buenos Aires, Argentina",
+        "text3": "Avión: La forma más rápida es tomar un vuelo desde el Aeroparque Jorge Newbery (AEP) o el Aeropuerto Internacional de Ezeiza (EZE) hasta el Aeropuerto Internacional de Iguazú (IGR). El vuelo dura aproximadamente 1 hora y 45 minutos. Desde el aeropuerto, puedes tomar un taxi o un transporte de enlace hasta el parque. Aquí te podemos dejar algunas agencias donde podes recomendar.",
+        "text4":"Bus: Hay autobuses de larga distancia que salen de la terminal de ómnibus de Buenos Aires hacia Puerto Iguazú. El viaje en bus puede durar entre 16 y 20 horas, dependiendo del servicio que elijas.",
+        "title4":"Desde otros lugares:",
+        "text5":"Si vienes de Paraguay: La ciudad más cercana es Ciudad del Este. Puedes cruzar a Brasil y tomar un autobús o taxi hacia Foz do Iguazú. También puedes cruzar a Argentina y desde allí tomar un transporte hasta Puerto Iguazú.",
+        "text6":"Parque Nacional Iguazú: Además de las cataratas, el parque alberga una rica biodiversidad y ofrece oportunidades para el ecoturismo, como avistamiento de aves y recorridos por la selva."
+
     },
     "error":{
        "notfound":"Página no disponible"

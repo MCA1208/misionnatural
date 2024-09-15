@@ -33,7 +33,7 @@ function culture() {
         <div>
           <ImageList
             sx={{ width: "100%", height: "100%" }}
-            cols={3}
+            cols={5}
             rowHeight={164}
           >
             <ImageListItem>
@@ -71,6 +71,15 @@ function culture() {
             </ImageListItem>
             <ImageListItem>
               <img id="img12" />
+            </ImageListItem>
+            <ImageListItem>
+              <img id="img13" />
+            </ImageListItem>
+            <ImageListItem>
+              <img id="img14" />
+            </ImageListItem>
+            <ImageListItem>
+              <img id="img15" />
             </ImageListItem>
           </ImageList>
         </div>

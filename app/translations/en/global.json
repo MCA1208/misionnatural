@@ -14,7 +14,17 @@
 
     },
     "destination":{
-        "name":"Destination"
+        "name":"Destination",
+        "text1": "Misiones offers a variety of tourist destinations that stand out for their natural beauty, cultural wealth and history. Below we can see some of the places to visit:",
+        "title1":" Cataratas del Iguazú",
+        "text2":"One of the most iconic destinations in Argentina and the world. The falls are located in the Iguazú National Park and offer stunning views, trails and boat rides that take you closer to the base of the falls. You can also explore the Macuco Trail and the Devil's Throat, the largest and most spectacular fall.",
+        "title2":"¿How to get there?",
+        "title3": "From Buenos Aires, Argentina",
+        "text3": "Plane: The fastest way is to take a flight from Aeroparque Jorge Newbery (AEP) or Ezeiza International Airport (EZE) to Iguazú International Airport (IGR). The flight lasts approximately 1 hour and 45 minutes. From the airport, you can take a taxi or shuttle to the park. Here we can leave you some agencies where you can recommend.",
+        "text4":"Bus: Hay autobuses de larga distancia que salen de la terminal de ómnibus de Buenos Aires hacia Puerto Iguazú. El viaje en bus puede durar entre 16 y 20 horas, dependiendo del servicio que elijas.",
+        "title4":"From other places::",
+        "text5":"If you come from Paraguay: The closest city is Ciudad del Este. You can cross into Brazil and take a bus or taxi to Foz do Iguazú. You can also cross into Argentina and from there take transportation to Puerto Iguazú.",
+        "text6":"Iguazú National Park: In addition to the waterfalls, the park is home to rich biodiversity and offers opportunities for ecotourism, such as bird watching and jungle tours."
     },
     "error":{
         "notfound":"Page not available"
