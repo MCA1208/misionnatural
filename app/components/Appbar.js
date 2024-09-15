@@ -21,7 +21,7 @@ import { useRouter } from "next/navigation";
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [language, setLanguage] = useState(null);
+  const [language, setLanguage] = useState(10);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
