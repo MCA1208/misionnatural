@@ -1,10 +1,9 @@
 {
-  "/_not-found": "app/_not-found.js",
-  "/dashboard/culture/page": "app/dashboard/culture/page.js",
-  "/dashboard/activities/page": "app/dashboard/activities/page.js",
-  "/dashboard/destination/page": "app/dashboard/destination/page.js",
   "/dashboard/gastronomy/page": "app/dashboard/gastronomy/page.js",
+  "/dashboard/culture/page": "app/dashboard/culture/page.js",
+  "/dashboard/destination/page": "app/dashboard/destination/page.js",
   "/dashboard/ruraltourism/page": "app/dashboard/ruraltourism/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js"
+  "/page": "app/page.js",
+  "/dashboard/activities/page": "app/dashboard/activities/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

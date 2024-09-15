@@ -21,7 +21,7 @@ import { useRouter } from "next/navigation";
 
 export default function ButtonAppBar() {
   const [anchorEl, setAnchorEl] = useState(null);
-  const [language, setLanguage] = useState(10);
+  const [language, setLanguage] = useState(null);
   const open = Boolean(anchorEl);
   const handleClick = (event) => {
     setAnchorEl(event.currentTarget);
@@ -44,14 +44,15 @@ export default function ButtonAppBar() {
       i18n.changeLanguage("pt");
       setLanguage(30);
     }
+    localStorage.setItem("lng", i18n.language);
   };
 
   useEffect(() => {
-    if (i18n.language == "es") {
+    if (localStorage.getItem("lng") == "es") {
       setLanguage(10);
-    } else if (i18n.language == "en") {
+    } else if (localStorage.getItem("lng") == "en") {
       setLanguage(20);
-    } else if (i18n.language == "pt") {
+    } else if (localStorage.getItem("lng") == "pt") {
       setLanguage(30);
     }
   }, []);
