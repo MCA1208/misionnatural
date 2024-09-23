@@ -108,7 +108,7 @@ export default function ButtonAppBar() {
               src={logo}
             />
           </Box>
-          <Box sx={{ padding: 1, alignItems: "center" }}>
+          <Box sx={{ alignItems: "center" }}>
             <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
               <span style={{ color: "red" }}>MI</span>
               <span style={{ color: "blue" }}>SI</span>
@@ -116,10 +116,10 @@ export default function ButtonAppBar() {
               <span style={{ color: "#bbff33" }}>TROPICAL</span>
             </Typography>
           </Box>
-          <FormControl
+          <Box
             id="xxxx
           "
-            sx={{ paddingLeft: "150px", margin: "9px" }}
+            sx={{ margin: "9px" }}
           >
             <Select
               labelId="demo-simple-select-label"
@@ -138,7 +138,7 @@ export default function ButtonAppBar() {
                 {<Image width={40} src={ImageBrasil} />}
               </MenuItem>
             </Select>
-          </FormControl>
+          </Box>
           {/* <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
             News
           </Typography> */}

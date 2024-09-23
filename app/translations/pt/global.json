@@ -6,9 +6,9 @@
         "titlePhotos":"Galeria de fotos",
         "phone":"Telefone"
     },
-        "culture":{
-            "description": 
-        "Misiones é uma província do nordeste da Argentina, rica e diversificada, com uma mistura de influências indígenas, guaranis e europeias.  A presença guarani é muito forte em Misiones. A língua Guarani é falada e ensinada em algumas escolas, e muitos costumes e tradições Guarani continuam fazendo parte da vida cotidiana. Nomes de lugares e festivais também refletem esta herança. A música e a dança são fundamentais na cultura missionária. A polca missionária e a música folclórica argentina são populares. Além disso, há influências da música brasileira devido à proximidade com o Brasil. O artesanato local inclui tecelagem, cerâmica e escultura em madeira, muitas vezes com desenhos inspirados na natureza e na visão de mundo guarani. A beleza natural de Misiones, com suas selvas, cachoeiras e rios, é um grande atrativo turístico. As Cataratas do Iguaçu são um dos principais destinos turísticos e a região é conhecida por sua biodiversidade e parques nacionais. A combinação destas influências torna a cultura de Misiones única e fascinante, refletindo uma mistura de tradições indígenas, influências europeias e uma forte ligação com a natureza."
+    "culture":{
+        "title":"Cultura",
+        "description":  "Misiones é uma província do nordeste da Argentina, rica e diversificada, com uma mistura de influências indígenas, guaranis e europeias.  A presença guarani é muito forte em Misiones. A língua Guarani é falada e ensinada em algumas escolas, e muitos costumes e tradições Guarani continuam fazendo parte da vida cotidiana. Nomes de lugares e festivais também refletem esta herança. A música e a dança são fundamentais na cultura missionária. A polca missionária e a música folclórica argentina são populares. Além disso, há influências da música brasileira devido à proximidade com o Brasil. O artesanato local inclui tecelagem, cerâmica e escultura em madeira, muitas vezes com desenhos inspirados na natureza e na visão de mundo guarani. A beleza natural de Misiones, com suas selvas, cachoeiras e rios, é um grande atrativo turístico. As Cataratas do Iguaçu são um dos principais destinos turísticos e a região é conhecida por sua biodiversidade e parques nacionais. A combinação destas influências torna a cultura de Misiones única e fascinante, refletindo uma mistura de tradições indígenas, influências europeias e uma forte ligação com a natureza."
 
     },
     "gastronomy":{
@@ -17,9 +17,9 @@
 
     },
     "destination":{
-        "name":"Destinos",
+        "title":"Destinos",
         "text1": "Misiones oferece uma variedade de destinos turísticos que se destacam por suas belezas naturais, riqueza cultural e história. Abaixo podemos ver alguns dos locais a visitar:",
-        "title1":" Cataratas del Iguazú",
+        "iguazu":" Cataratas del Iguazú",
         "text2":"Um dos destinos mais emblemáticos da Argentina e do mundo. As cataratas estão localizadas no Parque Nacional do Iguaçu e oferecem vistas deslumbrantes, trilhas e passeios de barco que levam você mais perto da base das cataratas. Você também pode explorar a Trilha do Macuco e a Garganta do Diabo, a maior e mais espetacular queda.",
         "title2":"¿Como chegar lá?",
         "title3": "De Buenos Aires, Argentina",
@@ -27,7 +27,45 @@
         "text4":"Bus: Hay autobuses de larga distancia que salen de la terminal de ómnibus de Buenos Aires hacia Puerto Iguazú. El viaje en bus puede durar entre 16 y 20 horas, dependiendo del servicio que elijas.",
         "title4":"De otros lugares:",
         "text5":"Se você vem do Paraguai: A cidade mais próxima é Ciudad del Este. Você pode cruzar para o Brasil e pegar um ônibus ou táxi para Foz do Iguaçu. Você também pode cruzar para a Argentina e de lá pegar transporte para Puerto Iguazú.",
-        "text6":"Parque Nacional do Iguaçu: Além das cachoeiras, o parque abriga uma rica biodiversidade e oferece oportunidades de ecoturismo, como observação de pássaros e passeios na selva."
+        "text6":"Parque Nacional do Iguaçu: Além das cachoeiras, o parque abriga uma rica biodiversidade e oferece oportunidades de ecoturismo, como observação de pássaros e passeios na selva.",
+        "title6":"De São Paulo, Brasil:",
+        "text7":"Avião: Você pode pegar um voo do Aeroporto Internacional de São Paulo/Guarulhos (GRU) para o Aeroporto Internacional de Foz do Iguazú (IGU). O vôo dura cerca de 1 hora e 45 minutos. Do aeroporto, você pode pegar um táxi ou ônibus para o parque.",
+        "text8":"Ônibus: Também existem linhas de ônibus que ligam São Paulo a Foz do Iguaçu. A viagem de ônibus pode durar entre 12 e 15 horas.",
+        "sanIgnacio":{
+            "title":"Ruínas Jesuítas de San Ignacio Mini:",
+            "text1":"Estas ruínas fazem parte das Missões Jesuíticas Guarani e são Patrimônio Mundial da UNESCO. São uma janela para o passado colonial e oferecem um passeio fascinante pela história das missões jesuíticas na região.",
+            "title2":"Como chegar lá?",
+            "text2":"Transporte desde Posadas: Do aeroporto de Posadas, as ruínas ficam a cerca de 60 quilômetros. Você pode pegar um táxi, um serviço de transporte particular ou alugar um carro para chegar a San Ignacio.",
+            "text3":"Viajar de ônibus: Existem ônibus de longa distância que saem do Terminal Rodoviário de Buenos Aires para Posadas. A viagem pode durar entre 16 e 20 horas. Do terminal de Posadas você pode pegar um táxi ou transporte local até San Ignacio.",
+            "title3":"De Posadas, Argentina:",
+            "text4":"Carro ou Táxi: A maneira mais conveniente de chegar desde Posadas é de carro. A viagem até San Ignacio leva aproximadamente 1 hora. Você pode alugar um carro ou pegar um táxi.",
+            "text5":"Transporte Público: Existem serviços de ônibus locais que conectam Posadas com San Ignacio. O horário e a disponibilidade podem variar, por isso recomendo verificar com antecedência.",
+            "title4":"De Foz do Iguazú, Brasil:",
+            "text6":"Carro - Percurso: A distância entre Foz do Iguaçu e San Ignacio é de aproximadamente 150 quilômetros. Você pode alugar um carro e cruzar a fronteira com a Argentina. Certifique-se de ter a documentação necessária para atravessar a fronteira e as condições de entrada.",
+            "text7":"Transporte Público - Ônibus: Você pode pegar um ônibus de Foz do Iguaçu até Posadas e depois continuar em um ônibus local ou táxi até San Ignacio.",
+            "title5":"De Ciudad del Este, Paraguay:",
+            "text8":"Carro - Percurso: Ciudad del Este fica a cerca de 120 quilômetros de San Ignacio. Você pode alugar um carro e cruzar a fronteira com a Argentina.",
+            "text9":"Transporte Público - Ônibus: Considere pegar um ônibus de Ciudad del Este para Posadas e depois pegar o transporte local para San Ignacio."
+        },
+        "sanJavier":{
+            "title":"San Javier:",
+            "text1":"Pequena cidade conhecida pela rica tradição cultural e pela produção de erva-mate. É um bom lugar para explorar a vida rural e aprender sobre a cultura local.",
+            "title1":"Como chegar lá?",
+            "title2":"De Buenos Aires, Argentina:",
+            "text2":"Avião - Voo para Posadas: Pegue um vôo do Aeroparque Jorge Newbery (AEP) ou do Aeroporto Internacional de Ezeiza (EZE) para o Aeroporto Internacional de Posadas (PSS). O vôo dura aproximadamente 1 hora e 45 minutos. Transporte desde Posadas: Do aeroporto de Posadas, San Javier são cerca de 120 quilômetros. Você pode alugar um carro, pegar um táxi ou usar um serviço de transporte privado para chegar a San Javier.",
+            "text4":"Ônibus - Viaje de ônibus: Existem ônibus que saem do Terminal Rodoviário de Buenos Aires em direção a Posadas. A viagem pode durar entre 16 e 20 horas. De Posadas você pode pegar um ônibus ou táxi até San Javier.",
+            "title3":"De Foz do Iguazú, Brasil:",
+            "text5":"Carro - Rota: A distância entre Foz do Iguaçu e San Javier é de aproximadamente 160 quilômetros. Você pode alugar um carro e cruzar a fronteira com a Argentina. Certifique-se de trazer a documentação necessária para atravessar a fronteira e as condições de entrada.",
+            "text6":"Transporte Público - Autobuses: Considera tomar un autobús desde Foz do Iguazú hasta Posadas y luego continuar en un autobús o taxi a San Javier.",
+            "title4":"De Ciudad del Este, Paraguay:",
+            "text7":"Carro - Percurso: Ciudad del Este está localizada a cerca de 130 quilômetros de San Javier. Você pode estacionar um carro e cruzar a fronteira com a Argentina.",
+            "text8":"Transporte Público - Ônibus: Existem serviços de ônibus que ligam a cidade.",
+            "title5":"Informações adicionais:",
+            "text9":"Visto: Verifique os requisitos de visto para entrar na Argentina caso você seja cidadão de um país que não possui acordo de isenção de visto.",
+            "text10":"Clima e Preparativos: Use roupas leves e confortáveis, pois o clima em Misiones costuma ser quente e úmido. Não se esqueça do protetor solar e do repelente de insetos.",
+            "text11":"Serviços em San Javier: San Javier é um lugar pequeno, por isso pode ter serviços limitados. Certifique-se de trazer tudo o que precisa para sua estadia e planeje com antecedência."
+        }
+
     },
     "error":{
        "notfound":"Página não disponível"

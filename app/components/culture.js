@@ -20,12 +20,23 @@ function culture() {
         <Box
           sx={{
             my: 4,
+            backgroundColor: "#bbff33",
+          }}
+        >
+          <Typography
+            variant="h4"
+            component="h1"
+            sx={{ mb: 2, fontWeight: 600, textAlign: "center" }}
+          >
+            {t("culture.title")}
+          </Typography>
+        </Box>
+        <Box
+          sx={{
+            my: 4,
             backgroundColor: "#33ecff",
           }}
         >
-          {/* <Typography variant="h4" component="h1" sx={{ mb: 2 }}>
-          {t("culture.description")}
-        </Typography> */}
           <Typography sx={{ mb: 2, padding: 1 }}>
             {t("culture.description")}
           </Typography>

@@ -20,58 +20,58 @@
       "static/chunks/fd9d1056-790afafd7f0ed2db.js",
       "static/chunks/69-b479269f29c829a6.js",
       "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/425-99c5209784fda869.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
       "static/css/c50dfbd9616796b7.css",
-      "static/chunks/app/dashboard/culture/page-2b6d593d697ac15a.js"
-    ],
-    "/dashboard/activities/page": [
-      "static/chunks/webpack-b07cd5fbcfb48fab.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/425-99c5209784fda869.js",
-      "static/chunks/app/dashboard/activities/page-f511d4f38fd563ba.js"
+      "static/chunks/app/dashboard/culture/page-e275b0d196884515.js"
     ],
     "/dashboard/destination/page": [
       "static/chunks/webpack-b07cd5fbcfb48fab.js",
       "static/chunks/fd9d1056-790afafd7f0ed2db.js",
       "static/chunks/69-b479269f29c829a6.js",
       "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/425-99c5209784fda869.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
       "static/css/d8d6146b55c09f4e.css",
-      "static/chunks/app/dashboard/destination/page-e606e85ce8ec2f69.js"
-    ],
-    "/dashboard/gastronomy/page": [
-      "static/chunks/webpack-b07cd5fbcfb48fab.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/425-99c5209784fda869.js",
-      "static/chunks/app/dashboard/gastronomy/page-4403862201ac6f78.js"
-    ],
-    "/dashboard/ruraltourism/page": [
-      "static/chunks/webpack-b07cd5fbcfb48fab.js",
-      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
-      "static/chunks/69-b479269f29c829a6.js",
-      "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/425-99c5209784fda869.js",
-      "static/chunks/app/dashboard/ruraltourism/page-dafe1cc088b87320.js"
+      "static/chunks/app/dashboard/destination/page-a77b7847c4b406ff.js"
     ],
     "/page": [
       "static/chunks/webpack-b07cd5fbcfb48fab.js",
       "static/chunks/fd9d1056-790afafd7f0ed2db.js",
       "static/chunks/69-b479269f29c829a6.js",
       "static/chunks/main-app-8276ada9d4ffe51a.js",
-      "static/chunks/345-1455af5f6d58f88a.js",
-      "static/chunks/510-0022a1b415ee2a49.js",
-      "static/chunks/425-99c5209784fda869.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/510-7744a4b4d472d328.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
       "static/css/96344a3b3f9385ef.css",
-      "static/chunks/app/page-e202306dc2500d5b.js"
+      "static/chunks/app/page-72d1b6c36e2cb87f.js"
+    ],
+    "/dashboard/ruraltourism/page": [
+      "static/chunks/webpack-b07cd5fbcfb48fab.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
+      "static/chunks/app/dashboard/ruraltourism/page-f1d5394a488feb05.js"
+    ],
+    "/dashboard/gastronomy/page": [
+      "static/chunks/webpack-b07cd5fbcfb48fab.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
+      "static/chunks/app/dashboard/gastronomy/page-d341786d2efd985d.js"
+    ],
+    "/dashboard/activities/page": [
+      "static/chunks/webpack-b07cd5fbcfb48fab.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-ef0e123c7d3c780a.js",
+      "static/chunks/app/dashboard/activities/page-f9dde3385bac874a.js"
     ]
   }
 }

@@ -8,6 +8,7 @@
 
     },
     "culture":{
+        "title":"Cultura",
         "description": "Misiones es una provincia del noreste de Argentina, es rica y diversa, con una mezcla de influencias indígenas, guaraníes y europeas.  La presencia guaraní es muy fuerte en Misiones. La lengua guaraní se habla y se enseña en algunas escuelas, y muchas costumbres y tradiciones guaraníes siguen siendo parte de la vida cotidiana. Los nombres de lugares y las festividades también reflejan esta herencia. La música y la danza son fundamentales en la cultura de Misiones. La polca misionera y la música folclórica argentina son populares. Además, hay influencias de la música brasileña debido a la proximidad con Brasil. En cuanto la artesanía local incluye tejidos, cerámicas y tallas en madera, a menudo con diseños inspirados en la naturaleza y la cosmovisión guaraní. La belleza natural de Misiones, con sus selvas, cascadas y ríos, es una gran atracción turística. Las Cataratas del Iguazú son uno de los principales destinos turísticos, y la región es conocida por su biodiversidad y parques nacionales. La combinación de estas influencias hace que la cultura de Misiones sea única y fascinante, reflejando una mezcla de tradiciones indígenas, influencias europeas y una fuerte conexión con la naturaleza. "
     },
     "gastronomy":{
@@ -16,9 +17,9 @@
 
     },  
     "destination":{
-        "name":"Destinos",
+        "title":"Destinos",
         "text1": "Misiones ofrece una variedad de destinos turísticos que destacan por su belleza natural, su riqueza cultural y su historia. A continuación podemos ver  algunos de los lugares para visitar:",
-        "title1":" Cataratas del Iguazú",
+        "iguazu":" Cataratas del Iguazú",
         "text2":"Uno de los destinos más icónicos de Argentina y del mundo. Las cataratas están situadas en el Parque Nacional Iguazú y ofrecen vistas impresionantes, senderos y paseos en barco que te acercan a la base de las cascadas. También puedes explorar el Sendero Macuco y la Garganta del Diablo, la caída más grande y espectacular.",
         "title2":"¿Cómo llegar?",
         "title3": "Desde Buenos Aires, Argentina",
@@ -26,7 +27,44 @@
         "text4":"Bus: Hay autobuses de larga distancia que salen de la terminal de ómnibus de Buenos Aires hacia Puerto Iguazú. El viaje en bus puede durar entre 16 y 20 horas, dependiendo del servicio que elijas.",
         "title4":"Desde otros lugares:",
         "text5":"Si vienes de Paraguay: La ciudad más cercana es Ciudad del Este. Puedes cruzar a Brasil y tomar un autobús o taxi hacia Foz do Iguazú. También puedes cruzar a Argentina y desde allí tomar un transporte hasta Puerto Iguazú.",
-        "text6":"Parque Nacional Iguazú: Además de las cataratas, el parque alberga una rica biodiversidad y ofrece oportunidades para el ecoturismo, como avistamiento de aves y recorridos por la selva."
+        "text6":"Parque Nacional Iguazú: Además de las cataratas, el parque alberga una rica biodiversidad y ofrece oportunidades para el ecoturismo, como avistamiento de aves y recorridos por la selva.",
+        "title6":"Desde São Paulo, Brasil:",
+        "text7":"Avión: Puedes tomar un vuelo desde el Aeropuerto Internacional de São Paulo/Guarulhos (GRU) al Aeropuerto Internacional de Foz do Iguazú (IGU). El vuelo dura alrededor de 1 hora y 45 minutos. Desde el aeropuerto, puedes tomar un taxi o un transporte al parque.",
+        "text8":"Bus: También hay servicios de autobuses que conectan São Paulo con Foz do Iguazú. El viaje en bus puede durar entre 12 y 15 horas.",
+        "sanIgnacio":{
+            "title":"Ruinas Jesuíticas de San Ignacio Mini:",
+            "text1":"Estas ruinas forman parte de las Misiones Jesuíticas Guaraníes y son Patrimonio de la Humanidad de la UNESCO. Son una ventana al pasado colonial y ofrecen un recorrido fascinante por la historia de las misiones jesuíticas en la región.",
+            "title2":"¿Cómo llegar?",
+            "text2":"Transporte desde Posadas: Desde el aeropuerto de Posadas, las ruinas están a unos 60 kilómetros. Puedes tomar un taxi, un servicio de transporte privado o alquilar un coche para llegar a San Ignacio.",
+            "text3":"Viaje en Autobús: Hay autobuses de larga distancia que salen desde la Terminal de Ómnibus de Buenos Aires hacia Posadas. El viaje puede durar entre 16 y 20 horas. Desde la terminal de Posadas, puedes tomar un taxi o un transporte local hasta San Ignacio.",
+            "title3":"Desde Posadas, Argentina:",
+            "text4":"Coche o Taxi: La forma más conveniente de llegar desde Posadas es en coche. El viaje hasta San Ignacio dura aproximadamente 1 hora. Puedes alquilar un coche o tomar un taxi.",
+            "text5":"Transporte Público: Existen servicios de autobuses locales que conectan Posadas con San Ignacio. Los horarios y la disponibilidad pueden variar, así que te recomendaría verificar con anticipación.",
+            "title4":"Desde Foz do Iguazú, Brasil:",
+            "text6":"Coche - Ruta: La distancia entre Foz do Iguazú y San Ignacio es de aproximadamente 150 kilómetros. Puedes alquilar un coche y cruzar la frontera hacia Argentina. Asegúrate de tener la documentación necesaria para cruzar la frontera y las condiciones de entrada.",
+            "text7":"Transporte Público - Autobuses: Puedes tomar un autobús desde Foz do Iguazú hasta Posadas y luego continuar en un autobús local o taxi a San Ignacio.",
+            "title5":"Desde Ciudad del Este, Paraguay:",
+            "text8":"Coche - Ruta: Ciudad del Este está a unos 120 kilómetros de San Ignacio. Puedes alquilar un coche y cruzar la frontera hacia Argentina.",
+            "text9":"Transporte Público - Autobuses: Considera tomar un autobús desde Ciudad del Este a Posadas y luego tomar un transporte local hacia San Ignacio."
+        },
+        "sanJavier":{
+            "title":"San Javier:",
+            "text1":"Un pequeño pueblo conocido por su rica tradición cultural y la producción de yerba mate. Es un buen lugar para explorar la vida rural y aprender sobre la cultura local.",
+            "title1":"¿Cómo llegar?",
+            "title2":"Desde Buenos Aires, Argentina:",
+            "text2":"Avión - Vuelo a Posadas: Toma un vuelo desde el Aeroparque Jorge Newbery (AEP) o el Aeropuerto Internacional de Ezeiza (EZE) hasta el Aeropuerto Internacional de Posadas (PSS). El vuelo dura aproximadamente 1 hora y 45 minutos. Transporte desde Posadas: Desde el aeropuerto de Posadas, San Javier está a unos 120 kilómetros. Puedes alquilar un coche, tomar un taxi o utilizar un servicio de transporte privado para llegar a San Javier.",
+            "text4":"Bus - Viaje en Autobús: Hay autobuses que salen de la Terminal de Ómnibus de Buenos Aires hacia Posadas. El viaje puede durar entre 16 y 20 horas. Desde Posadas, puedes tomar un autobús o taxi hacia San Javier.",
+            "title3":"Desde Foz do Iguazú, Brasil:",
+            "text5":"Coche - Ruta: La distancia entre Foz do Iguazú y San Javier es de aproximadamente 160 kilómetros. Puedes alquilar un coche y cruzar la frontera hacia Argentina. Asegúrate de llevar la documentación necesaria para cruzar la frontera y las condiciones de entrada. ",
+            "text6":"Transporte Público - Autobuses: Considera tomar un autobús desde Foz do Iguazú hasta Posadas y luego continuar en un autobús o taxi a San Javier.",
+            "title4":"Desde Ciudad del Este, Paraguay:",
+            "text7":"Coche - Ruta: Ciudad del Este está a unos 130 kilómetros de San Javier. Puedes alquilar un coche y cruzar la frontera hacia Argentina.",
+            "text8":"Transporte Público - Autobuses: Hay servicios de autobuses que conectan Ciudad.",
+            "title5":"Información adicional:",
+            "text9":"Visado: Verifica los requisitos de visa para ingresar a Argentina si eres ciudadano de un país que no tiene acuerdo de exención de visa.",
+            "text10":" Clima y Preparativos: Lleva ropa cómoda y ligera, ya que el clima en Misiones suele ser cálido y húmedo. No olvides protector solar y repelente de insectos.",
+            "text11":"Servicios en San Javier: San Javier es un lugar pequeño, por lo que puede tener servicios limitados. Asegúrate de llevar todo lo necesario para tu estancia y planificar con anticipación."
+        }
 
     },
     "error":{

@@ -7,6 +7,7 @@
          "phone":"Phone"
     },
     "culture":{
+        "title":"Culture",
         "description": "Misiones is a province in the northeast of Argentina, it is rich and diverse, with a mix of indigenous, Guaraní and European influences.  The Guaraní presence is very strong in Misiones. The Guarani language is spoken and taught in some schools, and many Guarani customs and traditions remain part of daily life. Place names and festivals also reflect this heritage. Music and dance are fundamental in the culture of Misiones. Missionary polka and Argentine folk music are popular. In addition, there are influences from Brazilian music due to the proximity to Brazil. Local crafts include weaving, ceramics and wood carvings, often with designs inspired by nature and the Guaraní worldview. The natural beauty of Misiones, with its jungles, waterfalls and rivers, is a great tourist attraction. Iguazú Falls is one of the main tourist destinations, and the region is known for its biodiversity and national parks. The combination of these influences makes the culture of Misiones unique and fascinating, reflecting a mix of indigenous traditions, European influences and a strong connection with nature."
     },
     "gastronomy":{
@@ -14,9 +15,9 @@
 
     },
     "destination":{
-        "name":"Destination",
+        "title":"Destination",
         "text1": "Misiones offers a variety of tourist destinations that stand out for their natural beauty, cultural wealth and history. Below we can see some of the places to visit:",
-        "title1":" Cataratas del Iguazú",
+        "iguazu":" Cataratas del Iguazú",
         "text2":"One of the most iconic destinations in Argentina and the world. The falls are located in the Iguazú National Park and offer stunning views, trails and boat rides that take you closer to the base of the falls. You can also explore the Macuco Trail and the Devil's Throat, the largest and most spectacular fall.",
         "title2":"¿How to get there?",
         "title3": "From Buenos Aires, Argentina",
@@ -24,7 +25,45 @@
         "text4":"Bus: Hay autobuses de larga distancia que salen de la terminal de ómnibus de Buenos Aires hacia Puerto Iguazú. El viaje en bus puede durar entre 16 y 20 horas, dependiendo del servicio que elijas.",
         "title4":"From other places::",
         "text5":"If you come from Paraguay: The closest city is Ciudad del Este. You can cross into Brazil and take a bus or taxi to Foz do Iguazú. You can also cross into Argentina and from there take transportation to Puerto Iguazú.",
-        "text6":"Iguazú National Park: In addition to the waterfalls, the park is home to rich biodiversity and offers opportunities for ecotourism, such as bird watching and jungle tours."
+        "text6":"Iguazú National Park: In addition to the waterfalls, the park is home to rich biodiversity and offers opportunities for ecotourism, such as bird watching and jungle tours.",
+        "title6":"From São Paulo, Brasil:",
+        "text7":"Plane: You can take a flight from São Paulo/Guarulhos International Airport (GRU) to Foz do Iguazú International Airport (IGU). The flight lasts around 1 hour and 45 minutes. From the airport, you can take a taxi or shuttle to the park.",
+        "text8":"Bus: There are also bus services that connect São Paulo with Foz do Iguazú. The bus trip can last between 12 and 15 hours.",
+        "sanIgnacio":{
+            "title":"Jesuit Ruins of San Ignacio Mini:",
+            "text1":"These ruins are part of the Jesuit Guaraní Missions and are a UNESCO World Heritage Site. They are a window into the colonial past and offer a fascinating tour of the history of the Jesuit missions in the region.",
+            "title2":"How to get there?",
+            "text2":"Transportation from Posadas: From Posadas airport, the ruins are about 60 kilometers away. You can take a taxi, a private shuttle service, or rent a car to get to San Ignacio.",
+            "text3":"Travel by Bus: There are long-distance buses that leave from the Buenos Aires Bus Terminal to Posadas. The trip can take between 16 and 20 hours. From the Posadas terminal, you can take a taxi or local transport to San Ignacio.",
+            "title3":"From Posadas, Argentina:",
+            "text4":"Car or Taxi: The most convenient way to get there from Posadas is by car. The trip to San Ignacio takes approximately 1 hour. You can rent a car or take a taxi.",
+            "text5":"Public Transport: There are local bus services connecting Posadas to San Ignacio. Schedules and availability may vary, so I would recommend checking in advance.",
+            "title4":"From Foz do Iguazú, Brasil:",
+            "text6":"Car - Route: The distance between Foz do Iguaçu and San Ignacio is approximately 150 kilometers. You can rent a car and cross the border into Argentina. Make sure you have the necessary documentation to cross the border and the entry conditions.",
+            "text7":"Public Transport - Buses: You can take a bus from Foz do Iguazu to Posadas and then continue on a local bus or taxi to San Ignacio.",
+            "title5":"From Ciudad del Este, Paraguay:",
+            "text8":"Car - Route: Ciudad del Este is about 120 kilometers from San Ignacio. You can rent a car and cross the border into Argentina.",
+            "text9":"Public Transportation - Buses: Consider taking a bus from Ciudad del Este to Posadas and then taking local transportation to San Ignacio."
+        },
+        "sanJavier":{
+            "title":"San Javier:",
+            "text1":"A small town known for its rich cultural tradition and yerba mate production. It is a good place to explore rural life and learn about the local culture.",
+            "title1":"How to get there?",
+            "title2":"From Buenos Aires, Argentina:",
+            "text2":"Plane - Flight to Posadas: Take a flight from Aeroparque Jorge Newbery (AEP) or Ezeiza International Airport (EZE) to Posadas International Airport (PSS). The flight takes approximately 1 hour and 45 minutes. Transportation from Posadas: From Posadas Airport, San Javier is about 120 kilometers away. You can rent a car, take a taxi, or use a private shuttle service to get to San Javier.",
+            "text4":"Bus - Travel by Bus: There are buses leaving from the Buenos Aires Bus Terminal to Posadas. The trip can take between 16 and 20 hours. From Posadas, you can take a bus or taxi to San Javier.",
+            "title3":"From Foz do Iguazú, Brasil:",
+            "text5":"Car - Route: The distance between Foz do Iguaçu and San Javier is approximately 160 kilometers. You can rent a car and cross the border into Argentina. Make sure you have the necessary documentation to cross the border and the entry conditions.",
+            "text6":"Public Transport - Buses: Consider taking a bus from Foz do Iguazu to Posadas and then continuing on a bus or taxi to San Javier.",
+            "title4":"From Ciudad del Este, Paraguay:",
+            "text7":"Car - Route: Ciudad del Este is about 130 kilometers from San Javier. You can rent a car and cross the border into Argentina.",
+            "text8":"Public Transport - Buses: There are bus services that connect the City.",
+            "title5":"Additional information:",
+            "text9":"Visa: Check the visa requirements to enter Argentina if you are a citizen of a country that does not have a visa waiver agreement.",
+            "text10":"Weather and Preparations: Bring comfortable, light clothing, as the weather in Misiones is often hot and humid. Don't forget sunscreen and insect repellent.",
+            "text11":"San Javier Services: San Javier is a small place, so it may have limited services. Make sure you bring everything you need for your stay and plan ahead."
+        }
+
     },
     "error":{
         "notfound":"Page not available"
