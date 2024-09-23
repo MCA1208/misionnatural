@@ -1,0 +1,81 @@
+warning: in the working copy of '.next/app-build-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/build-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/app-paths-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/app/dashboard/culture/page.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/app/dashboard/destination/page.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/middleware-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/server-reference-manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/server/webpack-runtime.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/types/app/dashboard/culture/page.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.next/types/app/dashboard/destination/page.ts', LF will be replaced by CRLF the next time Git touches it
+[1mdiff --git a/.next/app-build-manifest.json b/.next/app-build-manifest.json[m
+[1mindex 290a2bc..3a4613c 100644[m
+[1m--- a/.next/app-build-manifest.json[m
+[1m+++ b/.next/app-build-manifest.json[m
+[36m@@ -1,10 +1,10 @@[m
+ {[m
+   "pages": {[m
+[31m-    "/dashboard/destination/page": [[m
+[32m+[m[32m    "/page": [[m
+       "static/chunks/webpack.js",[m
+       "static/chunks/main-app.js",[m
+[31m-      "static/css/app/dashboard/destination/page.css",[m
+[31m-      "static/chunks/app/dashboard/destination/page.js"[m
+[32m+[m[32m      "static/css/app/page.css",[m
+[32m+[m[32m      "static/chunks/app/page.js"[m
+     ],[m
+     "/layout": [[m
+       "static/chunks/webpack.js",[m
+[36m@@ -17,6 +17,17 @@[m
+       "static/chunks/main-app.js",[m
+       "static/css/app/dashboard/culture/page.css",[m
+       "static/chunks/app/dashboard/culture/page.js"[m
+[32m+[m[32m    ],[m
+[32m+[m[32m    "/dashboard/destination/page": [[m
+[32m+[m[32m      "static/chunks/webpack.js",[m
+[32m+[m[32m      "static/chunks/main-app.js",[m
+[32m+[m[32m      "static/css/app/dashboard/destination/page.css",[m
+[32m+[m[32m      "static/chunks/app/dashboard/destination/page.js"[m
+[32m+[m[32m    ],[m
+[32m+[m[32m    "/not-found": [[m
+[32m+[m[32m      "static/chunks/webpack.js",[m
+[32m+[m[32m      "static/chunks/main-app.js",[m
+[32m+[m[32m      "static/chunks/app/not-found.js"[m
+     ][m
+   }[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/.next/cache/webpack/server-development/0.pack.gz b/.next/cache/webpack/server-development/0.pack.gz[m
+[1mindex 9052ce1..9beda6e 100644[m
+Binary files a/.next/cache/webpack/server-development/0.pack.gz and b/.next/cache/webpack/server-development/0.pack.gz differ
+[1mdiff --git a/.next/cache/webpack/server-development/1.pack.gz b/.next/cache/webpack/server-development/1.pack.gz[m
+[1mindex aab4c3f..53eccb1 100644[m
+Binary files a/.next/cache/webpack/server-development/1.pack.gz and b/.next/cache/webpack/server-development/1.pack.gz differ
+[1mdiff --git a/.next/cache/webpack/server-development/2.pack.gz b/.next/cache/webpack/server-development/2.pack.gz[m
+[1mindex 3afa427..97432cb 100644[m
+Binary files a/.next/cache/webpack/server-development/2.pack.gz and b/.next/cache/webpack/server-development/2.pack.gz differ
+[1mdiff --git a/.next/cache/webpack/server-development/index.pack.gz b/.next/cache/webpack/server-development/index.pack.gz[m
+[1mindex b984ddf..0c85428 100644[m
+Binary files a/.next/cache/webpack/server-development/index.pack.gz and b/.next/cache/webpack/server-development/index.pack.gz differ
+[1mdiff --git a/.next/cache/webpack/server-development/index.pack.gz.old b/.next/cache/webpack/server-development/index.pack.gz.old[m
+[1mindex 52970ba..b984ddf 100644[m
+Binary files a/.next/cache/webpack/server-development/index.pack.gz.old and b/.next/cache/webpack/server-development/index.pack.gz.old differ
+[1mdiff --git a/.next/server/app-paths-manifest.json b/.next/server/app-paths-manifest.json[m
+[1mindex e5d56b7..2f452c8 100644[m
+[1m--- a/.next/server/app-paths-manifest.json[m
+[1m+++ b/.next/server/app-paths-manifest.json[m
+[36m@@ -1,4 +1,6 @@[m
+ {[m
+[32m+[m[32m  "/not-found": "app/not-found.js",[m
+[32m+[m[32m  "/dashboard/culture/page": "app/dashboard/culture/page.js",[m
+   "/dashboard/destination/page": "app/dashboard/destination/page.js",[m
+[31m-  "/dashboard/culture/page": "app/dashboard/culture/page.js"[m
+[32m+[m[32m  "/favicon.ico/route": "app/favicon.ico/route.js"[m
+ }[m
+\ No newline at end of file[m
+[1mdiff --git a/.next/server/app/_not-found_client-reference-manifest.js b/.next/server/app/_not-found_client-reference-manifest.js[m
+[1mindex 2fb4368..e9c04f9 100644[m
+[1m--- a/.next/server/app/_not-found_client-reference-manifest.js[m
+[1m+++ b/.next/server/app/_not-found_client-reference-manifest.js[m
+[36m@@ -1 +1 @@[m
+[31m-globalThis.__RSC_MANIFEST=(globalThis.__RSC_MANIFEST||{});globalThis.__RSC_MANIFEST["/_not-found"]={"moduleLoading":{"prefix":"/_next/","crossOrigin":null},"ssrModuleMapping":{"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/app-router.js","name":"*","chunks":[],"async":false}},"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/error-boundary.js","name":"*","chunks":[],"async":false}},"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/layout-router.js","name":"*","chunks":[],"async":false}},"(app-pages-browser)/./node_modules/next/dist/client/components/not-found-boundary.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/not-found-boundary.js","name":"*","chunks":[],"async":false}},"(app-pages-browser)/./node_modules/next/dist/client/components/render-from-template-context.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/render-from-template-context.js","name":"*","chunks":[],"async":false}},"(app-pages-browser)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js":{"*":{"id":"(ssr)/./node_modules/next/dist/client/components/static-generation-searchparams-bailout-provider.js","name":"*","chunks":[],"async":false}}},"edgeSSRModuleMapping":{},"clientModules":{"C:\\Users\\milto\\Desktop\\Repositorio\\mision\\node_modules\\next\\dist\\client\\components\\app-router.js":{"id":"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js","name":"*","chunks":["app-pages-internals","static/chunks/app-pages-internals.js"],"async":false},"C:\\Users\\milto\\Desktop\\Repositorio\\mision\\node_modules\\next\\dist\\esm\\client\\components\\app-router.js":{"id":"(app-pages-browser)/./node_modules/next/dist/client/components/app-router.js","name":"*","chunks":["app-pages-internals","static/chunks/app-pages-internals.js"],"async":false},"C:\\Users\\milto\\Desktop\\Repositorio\\mision\\node_modules\\next\\dist\\client\\components\\error-boundary.js":{"id":"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js","name":"*","chunks":["app-pages-internals","static/chunks/app-pages-internals.js"],"async":false},"C:\\Users\\milto\\Desktop\\Repositorio\\mision\\node_modules\\next\\dist\\esm\\client\\components\\error-boundary.js":{"id":"(app-pages-browser)/./node_modules/next/dist/client/components/error-boundary.js","name":"*","chunks":["app-pages-internals","static/chunks/app-pages-internals.js"],"async":false},"C:\\Users\\milto\\Desktop\\Repositorio\\mision\\node_modules\\next\\dist\\client\\components\\layout-router.js":{"id":"(app-pages-browser)/./node_modules/next/dist/client/components/layout-router.js","name":"*","chunks":["app-pages

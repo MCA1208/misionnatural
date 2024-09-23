@@ -1,4 +1,6 @@
 {
+  "/not-found": "app/not-found.js",
+  "/dashboard/culture/page": "app/dashboard/culture/page.js",
   "/dashboard/destination/page": "app/dashboard/destination/page.js",
-  "/dashboard/culture/page": "app/dashboard/culture/page.js"
+  "/favicon.ico/route": "app/favicon.ico/route.js"
 }

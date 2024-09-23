@@ -1,10 +1,10 @@
 {
   "pages": {
-    "/dashboard/destination/page": [
+    "/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/dashboard/destination/page.css",
-      "static/chunks/app/dashboard/destination/page.js"
+      "static/css/app/page.css",
+      "static/chunks/app/page.js"
     ],
     "/layout": [
       "static/chunks/webpack.js",
@@ -17,6 +17,17 @@
       "static/chunks/main-app.js",
       "static/css/app/dashboard/culture/page.css",
       "static/chunks/app/dashboard/culture/page.js"
+    ],
+    "/dashboard/destination/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/dashboard/destination/page.css",
+      "static/chunks/app/dashboard/destination/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }
