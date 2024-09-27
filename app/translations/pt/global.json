@@ -71,7 +71,12 @@
        "notfound":"Página não disponível"
     },
     "ruraltourism":{
-        "name":"Turismo rural"
+        "title":"Turismo rural.",
+        "text1":"Em Misiones, Argentina, o turismo rural oferece uma oportunidade única para explorar a vida no campo, a cultura local e a natureza exuberante da região. Aqui estão algumas opções e atividades que você pode considerar para uma experiência de turismo rural em Misiones:",
+        "title2":"Estadias e Alojamentos Rurais",
+        "text2":"Estância Santa Cecilia: Localizada em San Ignacio, esta fazenda oferece uma autêntica experiência no campo, com atividades como passeios a cavalo, visitas guiadas e refeições tradicionais.",
+        "text3":"Estância La María: No município de Capioví, oferece hospedagem em ambiente rural e permite aos visitantes participar da vida da fazenda, desde atividades agrícolas até degustações de comidas típicas.",
+        "text4":"Estancia El Trapiche: Localizada perto de Apóstoles, oferece a oportunidade de mergulhar na vida rural, participar de atividades relacionadas à produção de erva-mate e saborear a culinária local."
     },
     "activities":{
         "name":"Activities"

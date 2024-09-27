@@ -1,33 +1,80 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/page.css",
-      "static/chunks/app/page.js"
+    "/_not-found": [
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/app/_not-found-ac189729b40b9a4e.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/css/b32a757c1b71a6fc.css",
+      "static/chunks/app/layout-c8f001e98ff278eb.js"
+    ],
+    "/dashboard/activities/page": [
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/chunks/app/dashboard/activities/page-a8f1b88c67dcd72c.js"
     ],
     "/dashboard/culture/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/dashboard/culture/page.css",
-      "static/chunks/app/dashboard/culture/page.js"
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/css/c50dfbd9616796b7.css",
+      "static/chunks/app/dashboard/culture/page-8e16e94026040c38.js"
     ],
     "/dashboard/destination/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/dashboard/destination/page.css",
-      "static/chunks/app/dashboard/destination/page.js"
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/css/d8d6146b55c09f4e.css",
+      "static/chunks/app/dashboard/destination/page-bfab055ac4d9d848.js"
     ],
-    "/not-found": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/not-found.js"
+    "/dashboard/ruraltourism/page": [
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/446-f17db7911a7d26e9.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/css/d8d6146b55c09f4e.css",
+      "static/chunks/app/dashboard/ruraltourism/page-21a370a12fad134d.js"
+    ],
+    "/page": [
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/446-f17db7911a7d26e9.js",
+      "static/chunks/720-6228ae48054f658f.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/css/96344a3b3f9385ef.css",
+      "static/chunks/app/page-601bd7ceb0eb0e86.js"
+    ],
+    "/dashboard/gastronomy/page": [
+      "static/chunks/webpack-e8df2044b24dc579.js",
+      "static/chunks/fd9d1056-790afafd7f0ed2db.js",
+      "static/chunks/69-b479269f29c829a6.js",
+      "static/chunks/main-app-8276ada9d4ffe51a.js",
+      "static/chunks/68-7c00e2bc53615866.js",
+      "static/chunks/425-baefe3b87f4c2ef9.js",
+      "static/chunks/app/dashboard/gastronomy/page-18492b001d458a13.js"
     ]
   }
 }

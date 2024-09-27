@@ -1,6 +1,10 @@
 {
-  "/not-found": "app/not-found.js",
+  "/_not-found": "app/_not-found.js",
+  "/dashboard/activities/page": "app/dashboard/activities/page.js",
   "/dashboard/culture/page": "app/dashboard/culture/page.js",
   "/dashboard/destination/page": "app/dashboard/destination/page.js",
-  "/favicon.ico/route": "app/favicon.ico/route.js"
+  "/dashboard/ruraltourism/page": "app/dashboard/ruraltourism/page.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/page": "app/page.js",
+  "/dashboard/gastronomy/page": "app/dashboard/gastronomy/page.js"
 }

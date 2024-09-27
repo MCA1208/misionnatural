@@ -58,7 +58,7 @@ export default function ButtonAppBar() {
   }, []);
 
   return (
-    <Box sx={{ flexGrow: 1, paddingTop: 10 }}>
+    <Box sx={{ flexGrow: 1, paddingTop: 12 }}>
       <AppBar position="fixed" sx={{ alignItems: "center" }}>
         <Toolbar>
           <IconButton
