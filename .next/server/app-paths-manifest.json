@@ -1,10 +1,11 @@
 {
   "/_not-found": "app/_not-found.js",
   "/dashboard/activities/page": "app/dashboard/activities/page.js",
+  "/dashboard/artistic/page": "app/dashboard/artistic/page.js",
   "/dashboard/culture/page": "app/dashboard/culture/page.js",
   "/dashboard/destination/page": "app/dashboard/destination/page.js",
+  "/dashboard/gastronomy/page": "app/dashboard/gastronomy/page.js",
   "/dashboard/ruraltourism/page": "app/dashboard/ruraltourism/page.js",
   "/favicon.ico/route": "app/favicon.ico/route.js",
-  "/page": "app/page.js",
-  "/dashboard/gastronomy/page": "app/dashboard/gastronomy/page.js"
+  "/page": "app/page.js"
 }

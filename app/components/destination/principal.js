@@ -1,5 +1,5 @@
 import React from "react";
-import "./styled.css";
+import "../styledGeneric/styled.css";
 import Container from "@mui/material/Container";
 import AppBar from "../../components/Appbar";
 import Box from "@mui/material/Box";

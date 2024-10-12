@@ -80,5 +80,14 @@
     },
     "activities":{
         "name":"Actividades"
+    },
+    "artistic":{
+        "name":"Artistica",
+        "title1":"Arte urbano",
+        "text1":"La ciudad de Posadas, cuenta con rincones donde el arte urbano refleja la esencia de la comunidad y sus valores. Diferentes muros y espacios se transformaron en auténticas obras de arte. Mediante el trabajo conjunto entre el municipio y artistas misioneros, Posadas se convirtió en la verdadera ciudad de los murales. Dónde están y quiénes son los artistas que pintaron.",
+        "title2":"Tatuajes",
+        "text2":"Tu creatividad no tiene límites! El tatuaje es una forma de arte que ha evolucionado a lo largo de los siglos, desde las antiguas culturas tribales hasta convertirse en una forma de expresión personal y artística en la actualidad. Detrás de cada tatuaje hay una historia, una conexión profunda y una obra de arte única en la piel. El arte en el tatuaje es una fusión de habilidad técnica, creatividad y significado personal. Los tatuadores son artistas que utilizan la piel humana como lienzo, creando diseños que van desde los más simples y minimalistas hasta los más intrincados y detallados. Cada línea, sombra y color se combinan para formar una composición armoniosa y significativa. Una de las características más fascinantes del arte en el tatuaje es su capacidad para contar historias y representar la identidad de una persona. Los tatuajes pueden ser un medio de expresión individual, una forma de honrar a seres queridos, o una manera de mostrar aficiones, creencias o valores. Cada diseño está cuidadosamente elegido para reflejar la personalidad y el estilo de vida del portador."
+
+
     }
 }

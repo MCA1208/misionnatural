@@ -99,6 +99,9 @@ export default function ButtonAppBar() {
             <MenuItem onClick={() => router.push("/dashboard/gastronomy")}>
               Gastronomia
             </MenuItem>
+            <MenuItem onClick={() => router.push("/dashboard/artistic")}>
+              Artistica
+            </MenuItem>
           </Menu>
           <Box>
             <Image

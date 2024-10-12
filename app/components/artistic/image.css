@@ -1,0 +1,41 @@
+#img1 {
+    background: url(../../images/artistic/dibujo1.jpeg) no-repeat;
+}
+#img2 {
+    background: url(../../images/artistic/dibujo2.jpeg) no-repeat;
+}
+#img3 {
+    background: url(../../images/artistic/dibujo3.jpeg) no-repeat;
+}
+#img4 {
+    background: url(../../images/artistic/dibujo4.jpeg) no-repeat;
+}
+#img5 {
+    background: url(../../images/artistic/dibujo5.jpeg) no-repeat;
+}
+#img6 {
+    background: url(../../images/artistic/dibujo6.jpeg) no-repeat;
+}
+#img7 {
+    background: url(../../images/artistic/dibujo7.jpeg) no-repeat;
+}
+#img8{
+    background: url(../../images/artistic/dibujo8.jpeg) no-repeat;
+}
+#img9{
+    background: url(../../images/artistic/dibujo9.jpeg) no-repeat;
+}
+#img10{
+    background: url(../../images/artistic/dibujo10.jpeg) no-repeat;
+}
+#img11{
+    background: url(../../images/artistic/dibujo11.jpeg) no-repeat;
+}
+#img12{
+    background: url(../../images/artistic/dibujo12.jpeg) no-repeat;
+}
+
+img{
+    padding: 5px;
+}
+
