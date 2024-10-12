@@ -78,6 +78,15 @@
     },
     "activities":{
         "name":"Activities"
+    },
+    "artistic":{
+        "name":"Artistic",
+        "title1":"Urban Art",
+        "text1":"The city of Posadas has corners where urban art reflects the essence of the community and its values. Different walls and spaces were transformed into authentic works of art. Through joint work between the municipality and missionary artists, Posadas became the true city of murals. Where are they and who are the artists who painted.",
+        "title2":"Tattoos",
+        "text2":"Your creativity has no limits! Tattooing is an art form that has evolved over the centuries, from ancient tribal cultures to becoming a form of personal and artistic expression today. Behind every tattoo there is a story, a deep connection and a unique work of art on the skin. Tattoo art is a fusion of technical skill, creativity and personal meaning. Tattoo artists are artists who use human skin as a canvas, creating designs that range from the simplest and minimalist to the most intricate and detailed. Each line, shadow and color combine to form a harmonious and meaningful composition. One of the most fascinating features of tattoo art is its ability to tell stories and represent a person's identity. Tattoos can be a means of individual expression, a way to honor loved ones, or a way to display hobbies, beliefs or values. Each design is carefully chosen to reflect the personality and lifestyle of the wearer."
+
+
     }
 
 }
